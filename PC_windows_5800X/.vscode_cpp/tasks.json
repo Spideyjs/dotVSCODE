@@ -8,13 +8,13 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\EXECUTE\\${fileBasenameNoExtension}.exe",
                 // "-I", "P:/DEVELOP/CPPWORKSTAION/kodo-c-master/src/kodoc",
                 // "-I", "P:/DEVELOP/CPPWORKSTAION/kodo-cpp-master/src/kodocpp",
                 "-I", "P:/DEVELOP/CPPWORKSTAION/kodocpp/GF16_PLUS_MULTI"
             ], //编译命令参数
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
@@ -36,7 +36,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\EXECUTE\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"

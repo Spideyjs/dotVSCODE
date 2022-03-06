@@ -8,7 +8,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\EXECUTE\\${fileBasenameNoExtension}.exe"
                 // "-I",
                 // "E:/DEVELOP/CPPWORKSTAION/C_version/open library/gf-complete-master/include",
                 // "-I",
@@ -39,7 +39,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\EXECUTE\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
