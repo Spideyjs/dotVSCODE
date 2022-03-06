@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // "E:/TestEnvironment/TDM-GCC-64",
+                // "E:/DEVELOP/CPPWORKSTAION/kodo-c-master/src/kodoc",
+                // "E:/DEVELOP/CPPWORKSTAION/kodo-cpp-master/src/kodocpp",
+                "E:/DEVELOP/CPPWORKSTAION/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            // 此处是编译器路径，以后可直接在此修改
+            "compilerPath": "E:\\developEnvironment\\TDM-GCC-64\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
