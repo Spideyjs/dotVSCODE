@@ -1,0 +1,2 @@
+# dotVSCODE
+for vscode configuration
