@@ -35,6 +35,8 @@
                 "-fdiagnostics-color=always",
                 "-mavx",
                 "-mavx2",
+                "-O3",
+                // "-Og",
                 // "-fopenmp",
                 "-g",
                 "${file}",
