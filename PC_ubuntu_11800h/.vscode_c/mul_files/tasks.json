@@ -29,10 +29,17 @@
             "command": "/usr/bin/gcc-10",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
+                // "-O1",
+                // "-O2",
+                "-O3",
+                // "-Og",
                 "-mavx",
                 "-mavx2",
+                "-I",
+                "${fileDirname}/",
+                "-g",
                 "${file}",
+                "${fileDirname}/encode.c",
                 "-o",
                 "${workspaceFolder}/EXECUTE/${fileBasenameNoExtension}"
             ],
