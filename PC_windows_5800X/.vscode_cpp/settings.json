@@ -63,9 +63,18 @@
         "stdio.h": "c",
         "math.h": "c",
         "time.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "gf_method.h": "c",
+        "stdint.h": "c",
+        "jerasure.h": "c",
+        "nmmintrin.h": "c",
+        "limits.h": "c",
+        "erasure_code.h": "c",
+        "ec_base.h": "c",
+        "string.h": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled",
     "restructuredtext.confPath": "",
+    "esbonio.server.enabled": true,
     
 }

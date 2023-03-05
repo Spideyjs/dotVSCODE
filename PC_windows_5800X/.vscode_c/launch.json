@@ -15,7 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\TestEnvironment\\TDM-GCC-64\\bin\\gdb64.exe",
+            "miDebuggerPath": "D:\\software\\develop_environment\\TDM-GCC-64\\bin\\gdb64.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -36,7 +36,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\TestEnvironment\\TDM-GCC-64\\bin\\gdb64.exe",
+            "miDebuggerPath": "D:\\software\\develop_environment\\TDM-GCC-64\\bin\\gdb64.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -50,6 +50,32 @@
                 }
             ],
             "preLaunchTask": "C_SIMD: gcc.exe build active file"
+        },
+        {
+            "name": "(gdb_simd多源文件) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\EXECUTE\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\software\\develop_environment\\TDM-GCC-64\\bin\\gdb64.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description":  "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C_SIMD多源文件: gcc.exe build active file"
         }
     ]
 }

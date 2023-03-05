@@ -15,7 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\TestEnvironment\\TDM-GCC-64\\bin\\gdb64.exe",
+            "miDebuggerPath": "D:\\software\\develop_environment\\TDM-GCC-64\\bin\\gdb64.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -32,11 +32,11 @@
             "program": "${workspaceFolder}\\EXECUTE\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\TestEnvironment\\TDM-GCC-64\\bin\\gdb64.exe",
+            "miDebuggerPath": "D:\\software\\develop_environment\\TDM-GCC-64\\bin\\gdb64.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",

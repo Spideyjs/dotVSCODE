@@ -3,16 +3,17 @@
         {
             "type": "shell",
             "label": "C++: g++.exe build active file",
-            "command": "D:\\TestEnvironment\\TDM-GCC-64\\bin\\g++.exe",
+            "command": "D:\\software\\develop_environment\\TDM-GCC-64\\bin\\g++.exe",
             "args": [
                 "-g",
                 "${file}",
                 "-o",
                 "${workspaceFolder}\\EXECUTE\\${fileBasenameNoExtension}.exe",
-                // "-I", "P:/DEVELOP/CPPWORKSTAION/kodo-c-master/src/kodoc",
-                // "-I", "P:/DEVELOP/CPPWORKSTAION/kodo-cpp-master/src/kodocpp",
-                "-I", "P:/DEVELOP/CPPWORKSTAION/kodocpp/GF16_PLUS_MULTI"
-            ], //编译命令参数
+                "-I",
+                "E:/DEVELOP/CPPWORKSTAION/C_version/open library/gf-complete-master/include",
+                "-I",
+                "E:/DEVELOP/CPPWORKSTAION/C_version/open library/Jerasure-master/include"
+            ],
             "options": {
                 "cwd": "${fileDirname}"
             },
@@ -28,11 +29,10 @@
         {
             "type": "shell",
             "label": "CPP_SIMD: g++.exe build active file",
-            "command": "D:\\TestEnvironment\\TDM-GCC-64\\bin\\g++.exe",
+            "command": "D:\\software\\develop_environment\\TDM-GCC-64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-mavx",
-                "-mavx2",
                 "-g",
                 "${file}",
                 "-o",
@@ -48,7 +48,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "编译器: D:\\TestEnvironment\\TDM-GCC-64\\bin\\g++.exe"
+            "detail": "编译器: D:\\software\\develop_environment\\TDM-GCC-64\\bin\\g++.exe"
         }
     ],
     "version": "2.0.0"
